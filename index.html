@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Voice Captioner</title>
+  <meta name="description" content="A simple voice captioner">
+  <meta name="author" content="Sam Norton">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="title"></div>
+  <div id="caption" class="caption"></div>
+  <p id="notice"><i class="fa fa-microphone" aria-hidden="true"></i> Don't forget to allow audio on your browser to caption your voice.</p>
+  <button id="copy-button" onclick="copyToClipboard('caption')">Copy to clipboard</button>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
